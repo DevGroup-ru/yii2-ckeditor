@@ -3,6 +3,7 @@ CKEditor Расширение для Yii 2
 
 CKEditor — свободный WYSIWYG-редактор, который может быть использован на веб-страницах.
 
+Данное расширение - форк пакета [mihaildev/yii2-ckeditor](https://github.com/MihailDev/yii2-ckeditor) с установкой ckeditor через bower.
 
 ## Установка
 

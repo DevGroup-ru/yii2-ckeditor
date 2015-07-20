@@ -1,8 +1,8 @@
 {
-    "name": "mihaildev/yii2-ckeditor",
+    "name": "devgroup/yii2-ckeditor",
     "keywords": ["yii", "wysiwyg", "editor", "CKEditor"],
-    "description": "Yii2 CKEditor",
-    "homepage": "https://github.com/MihailDev/yii2-ckeditor",
+    "description": "Yii2 CKEditor a fork of mihaildev/yii2-ckeditor with bower packages",
+    "homepage": "https://github.com/devgroup-ru/yii2-ckeditor",
     "license": "BSD-3-Clause",
     "type": "yii2-extension",
 	"minimum-stability":"stable",
@@ -12,13 +12,19 @@
             "email": "mihail.kucher@gmail.com",
             "homepage": "https://github.com/MihailDev",
             "role": "Developer"
+        },
+        {
+            "name": "Alexander Kozhevnikov",
+            "email": "b37hr3z3n@gmail.com",
+            "homepage": "https://github.com/bethrezen/"
         }
     ],
     "autoload": {
         "psr-4": {"mihaildev\\ckeditor\\": ""}
     },
     "require": {
-        "yiisoft/yii2": "*"
+        "yiisoft/yii2": "*",
+        "bower-asset/ckeditor": "~4.5.0"
     },
 	"extra": {
 		"asset-installer-paths": {
